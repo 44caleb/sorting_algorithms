@@ -19,11 +19,6 @@ typedef struct listint_s
 	struct listint_s *next;
 } listint_t;
 
-/**
- * print_list - Prints a list of integers
- *
- * @list: The list to be printed
- */
 void print_list(const listint_t *list);
 listint_t *create_listint(const int *array, size_t size);
 void print_array(const int *array, size_t size);
